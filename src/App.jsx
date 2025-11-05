@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <div id="top" className="min-h-screen w-full bg-slate-950 text-white selection:bg-white/80 selection:text-slate-900">
-      {/* Decorative page background */}
+      {/* Background gradients (non-interactive) */}
       <div className="pointer-events-none fixed inset-0 z-0">
         <div className="absolute inset-0 bg-[radial-gradient(1200px_600px_at_50%_-10%,rgba(56,189,248,0.18),transparent_60%),radial-gradient(800px_400px_at_90%_10%,rgba(244,114,182,0.22),transparent_60%),radial-gradient(1000px_500px_at_10%_0%,rgba(34,197,94,0.18),transparent_60%)]" />
       </div>
